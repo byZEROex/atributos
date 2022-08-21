@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px ;
+    padding: 20px;
+   
+}
+
+.tamaño {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+}
+.tamañomoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrartexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.barra1 {
+    background-color: orangered;
+    padding: 10px;
+    margin-top: 10px;
+}
+.boton{
+    background-color: orangered;
+    border: 0;
+    color: white;
+}
+.hover:hover{
+    background-color: white;
+    color: orangered;
+    border-radius: 8px;
+}
+.imagenmoto {
+    background-size: 2000px;
+    height: 1000px;
+    background-image: url(../images/965054.jpeg); 
+    background-repeat: no-repeat;
+    padding: 0x;
+    background-position: center;
+    margin-top: 10px;
+}
+.slogan {
+    font-size: 200px;
+}
+.hoverslogan:hover {
+    color: orangered;
+    background-color: transparent; 
+}
+.botonslogan {
+    background-color: transparent;
+    color: white;
+    font-size: 200px;
+    border: 0;
+    text-decoration: none;
+    
+}
+.logo {
+
+        height: 400px;
+        margin: 0px;
+        background-color: yellow;
+        background-image: url(../images/mcdonalds-logo-footer-bg-white.png);
+        background-size: 120px;
+        background-repeat: no-repeat;
+        padding: 0x;
+        background-position: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+.cajalinks {
+    margin-top: 10px;
+    background-color: orangered;
+    padding: 0 0;
+    border: 3;
+    border-color: white;
+    
+}
+.colordellink {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.hovercaja:hover {
+    background-color: white;
+    color: orangered;
+    
+}
+.hoverlink2:hover {
+    color: orangered;
+    
+}
+.formulario {
+    color: white;
+    height: 100px;
+    background-color: orangered;
+    margin-top: 10px;
+    width: auto;
+    padding: 10px;
+}
